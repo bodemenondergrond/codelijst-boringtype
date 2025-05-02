@@ -113,7 +113,7 @@ omg_ps:seeAlso
     sh:name          "zie ook"@en ;
     sh:description   "Een verwijzing naar een gelijkaardige 'resource' of een document over het onderwerp."@en ;
     rdfs:isDefinedBy beo_ont:boringtype, beo_voc:boringtype ;
-    sh:maxCount      1 ;
+#    sh:maxCount      1 ;
     sh:nodeKind      sh:IRI ;
     sh:path          rdfs:seeAlso .
 

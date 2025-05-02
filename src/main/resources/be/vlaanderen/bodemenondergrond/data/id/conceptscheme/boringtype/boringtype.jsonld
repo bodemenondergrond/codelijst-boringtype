@@ -391,6 +391,70 @@
     },
     "graph": [
         {
+            "id": "concept:aanlegpeilput",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.aanlegpeilput",
+            "broader": "concept:grondwatermonitoring",
+            "broaderTransitive": "concept:grondwatermonitoring",
+            "definition": "Boring voor de aanleg van een peilput.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "aanlegpeilput",
+            "note": "Boring voor de aanleg van een peilput.",
+            "prefLabel": "Boring voor de aanleg van een peilput",
+            "semanticRelation": "concept:grondwatermonitoring",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:aanlegpeilputanalyses",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.aanlegpeilputanalyses",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70341&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:grondwatermonitoring",
+            "broaderTransitive": "concept:grondwatermonitoring",
+            "definition": "Boringen voor de aanleg van peilputten in het kader van bodem- en grondwateranalyses.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "aanlegpeilputanalyses",
+            "note": "Boringen voor de aanleg van peilputten in het kader van bodem- en grondwateranalyses.",
+            "prefLabel": "Boring voor aanleg van een peilput i.h.k.v. bodem- en grondwateranalyses",
+            "semanticRelation": "concept:grondwatermonitoring",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:aanlegpeilputinrichting",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.aanlegpeilputinrichting",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70341&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:grondwatermonitoring",
+            "broaderTransitive": "concept:grondwatermonitoring",
+            "definition": "Boring voor de aanleg van peilputten ter naleving van de milieuvoorwaarden voor de exploitatie van inrichtingen.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "aanlegpeilputinrichting",
+            "note": "Boring voor de aanleg van peilputten ter naleving van de milieuvoorwaarden voor de exploitatie van inrichtingen.",
+            "prefLabel": "Boring voor aanleg van een peilput i.h.k.v. milieuvoorwaarden voor de exploitatie van een inrichting",
+            "semanticRelation": "concept:grondwatermonitoring",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:aanlegpeilputverontreiniging",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.aanlegpeilputverontreiniging",
+            "broader": "concept:monitoringvervuildesites",
+            "broaderTransitive": "concept:monitoringvervuildesites",
+            "definition": "Boring voor de aanleg van een peilput i.h.k.v. een bodemverontreinining.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "aanlegpeilputverontreiniging",
+            "note": "Boring voor de aanleg van een peilput i.h.k.v. een bodemverontreinining.",
+            "prefLabel": "Boring voor aanleg van een peilput i.h.k.v. bodemdecreet (milieuboring)",
+            "semanticRelation": "concept:monitoringvervuildesites",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
             "id": "concept:archeologischonderzoek",
             "type": "skos:Concept",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.archeologischonderzoek",
@@ -403,11 +467,1495 @@
             "topConceptOf": "conceptscheme:boringtype"
         },
         {
+            "id": "concept:bemaling",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemaling",
+            "broader": "concept:drainagebemaling",
+            "broaderTransitive": "concept:drainagebemaling",
+            "definition": "Boring voor de aanleg van een bemaling uitgevoerd voor het permanent of tijdelijk verwijderen van water.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:bemalingbodemsaneringgrondwaterverlaging",
+                "concept:bemalingpermanentexploitatiegebouwen",
+                "concept:bemalingpermanentexploitatieterreinen",
+                "concept:bemalingpermanentexploitatietunnels",
+                "concept:bemalingpermanentmijnverzakkingsgebieden",
+                "concept:bemalingtijdelijkrealisatienutsvoorzieningen",
+                "concept:bemalingtijdelijkrealisatiewerken"
+            ],
+            "narrowerTransitive": [
+                "concept:bemalingbodemsaneringgrondwaterverlaging",
+                "concept:bemalingpermanentexploitatiegebouwen",
+                "concept:bemalingpermanentexploitatieterreinen",
+                "concept:bemalingpermanentexploitatietunnels",
+                "concept:bemalingpermanentmijnverzakkingsgebieden",
+                "concept:bemalingtijdelijkrealisatienutsvoorzieningen",
+                "concept:bemalingtijdelijkrealisatiewerken"
+            ],
+            "notation": "bemaling",
+            "note": "Boring voor de aanleg van een bemaling uitgevoerd voor het permanent of tijdelijk verwijderen van water.",
+            "prefLabel": "Bemaling",
+            "semanticRelation": [
+                "concept:drainagebemaling",
+                "concept:bemalingbodemsaneringgrondwaterverlaging",
+                "concept:bemalingpermanentexploitatiegebouwen",
+                "concept:bemalingpermanentexploitatieterreinen",
+                "concept:bemalingpermanentexploitatietunnels",
+                "concept:bemalingpermanentmijnverzakkingsgebieden",
+                "concept:bemalingtijdelijkrealisatienutsvoorzieningen",
+                "concept:bemalingtijdelijkrealisatiewerken"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingbodemsanering",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingbodemsanering",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:sanering",
+            "broaderTransitive": "concept:sanering",
+            "definition": "Boring voor de aanleg van een bemaling in het kader van sanering in een bodemsaneringsproject (BSP) met het oog om een verontreining niet te laten verspreiden. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingbodemsanering",
+            "note": "Boring voor de aanleg van een bemaling in het kader van sanering in een bodemsaneringsproject (BSP) met het oog om een verontreining niet te laten verspreiden. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling i.h.k.v. bodemsanering - sanering",
+            "semanticRelation": "concept:sanering",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingbodemsaneringgrondwaterverlaging",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingbodemsaneringgrondwaterverlaging",
+            "broader": "concept:bemaling",
+            "broaderTransitive": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "definition": "Boring voor de aanleg van een bemaling in het kader van grondwaterverlaging in een bodemsaneringsproject (BSP). De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingbodemsaneringgrondwaterverlaging",
+            "note": "Boring voor de aanleg van een bemaling in het kader van grondwaterverlaging in een bodemsaneringsproject (BSP). De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling i.h.k.v. bodemsanering - grondwaterverlaging",
+            "semanticRelation": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingbodemsaneringmitigatie",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingbodemsaneringmitigatie",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:sanering",
+            "broaderTransitive": "concept:sanering",
+            "definition": "Boring voor de aanleg van een bemaling in het kader van mitigatie in een bodemsaneringsproject (BSP) met het oog om te saneneren, bijvoorbeeld via pump and treat methode. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingbodemsaneringmitigatie",
+            "note": "Boring voor de aanleg van een bemaling in het kader van mitigatie in een bodemsaneringsproject (BSP) met het oog om te saneneren, bijvoorbeeld via pump and treat methode. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling i.h.k.v. bodemsanering - mitigatie",
+            "semanticRelation": "concept:sanering",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingpermanentexploitatiegebouwen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingpermanentexploitatiegebouwen",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:bemaling",
+            "broaderTransitive": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "definition": "Boring voor de aanleg van een permanente bronbemaling, met inbegrip van terugpompingen van onbehandeld en niet-verontreinigd grondwater in dezelfde watervoerende laag, die noodzakelijk is om het gebruik of de exploitatie van gebouwen mogelijk te maken of te houden. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingpermanentexploitatiegebouwen",
+            "note": "Boring voor de aanleg van een permanente bronbemaling, met inbegrip van terugpompingen van onbehandeld en niet-verontreinigd grondwater in dezelfde watervoerende laag, die noodzakelijk is om het gebruik of de exploitatie van gebouwen mogelijk te maken of te houden. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling - permanent - exploitatie van gebouwen",
+            "semanticRelation": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingpermanentexploitatieterreinen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingpermanentexploitatieterreinen",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:bemaling",
+            "broaderTransitive": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "definition": "Boring voor de aanleg van een permanente bronbemaling, met inbegrip van terugpompingen van onbehandeld en niet-verontreinigd grondwater in dezelfde watervoerende laag, die noodzakelijk is om het gebruik of de exploitatie van bedrijfsterreinen mogelijk te maken of te houden. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingpermanentexploitatieterreinen",
+            "note": "Boring voor de aanleg van een permanente bronbemaling, met inbegrip van terugpompingen van onbehandeld en niet-verontreinigd grondwater in dezelfde watervoerende laag, die noodzakelijk is om het gebruik of de exploitatie van bedrijfsterreinen mogelijk te maken of te houden. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling - permanent - exploitatie van terreinen",
+            "semanticRelation": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingpermanentexploitatietunnels",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingpermanentexploitatietunnels",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:bemaling",
+            "broaderTransitive": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "definition": "Boring voor de aanleg van een permanente bronbemaling, met inbegrip van terugpompingen van onbehandeld en niet-verontreinigd grondwater in dezelfde watervoerende laag, die noodzakelijk is voor de exploitatie van tunnels voor openbare wegen of openbaar vervoer. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingpermanentexploitatietunnels",
+            "note": "Boring voor de aanleg van een permanente bronbemaling, met inbegrip van terugpompingen van onbehandeld en niet-verontreinigd grondwater in dezelfde watervoerende laag, die noodzakelijk is voor de exploitatie van tunnels voor openbare wegen of openbaar vervoer. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling - permanent - exploitatie van tunnels",
+            "semanticRelation": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingpermanentmijnverzakkingsgebieden",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingpermanentmijnverzakkingsgebieden",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:bemaling",
+            "broaderTransitive": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "definition": "Boring voor de aanleg van een permanente bronbemaling, met inbegrip van terugpompingen van onbehandeld en niet-verontreinigd grondwater in dezelfde watervoerende laag, die noodzakelijk is voor de waterbeheersing van mijnverzakkingsgebieden, ook als dat water wordt gebruikt voor de openbare watervoorziening. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingpermanentmijnverzakkingsgebieden",
+            "note": "Boring voor de aanleg van een permanente bronbemaling, met inbegrip van terugpompingen van onbehandeld en niet-verontreinigd grondwater in dezelfde watervoerende laag, die noodzakelijk is voor de waterbeheersing van mijnverzakkingsgebieden, ook als dat water wordt gebruikt voor de openbare watervoorziening. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling - permanent - waterbeheersing van mijnverzakkingsgebieden",
+            "semanticRelation": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingtijdelijkrealisatienutsvoorzieningen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingtijdelijkrealisatienutsvoorzieningen",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:bemaling",
+            "broaderTransitive": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "definition": "Boring voor de aanleg van een tijdelijke bemaling die technisch noodzakelijk is voor de aanleg van nutsvoorzieningen,  met inbegrip van terug in de ondergrond brengen van bemalingswater in dezelfde watervoerende laag en het nuttige gebruik tot maximaal 5000 m³ bemalingswater per jaar. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingtijdelijkrealisatienutsvoorzieningen",
+            "note": "Boring voor de aanleg van een tijdelijke bemaling die technisch noodzakelijk is voor de aanleg van nutsvoorzieningen,  met inbegrip van terug in de ondergrond brengen van bemalingswater in dezelfde watervoerende laag en het nuttige gebruik tot maximaal 5000 m³ bemalingswater per jaar. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling - tijdelijk - realisatie van nutsvoorzieningen",
+            "semanticRelation": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bemalingtijdelijkrealisatiewerken",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bemalingtijdelijkrealisatiewerken",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:bemaling",
+            "broaderTransitive": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "definition": "Boring voor de aanleg van een tijdelijke bemaling die technisch noodzakelijk is voor de verwezenlijking van werken met inbegrip van terug in de ondergrond brengen van bemalingswater in dezelfde watervoerende laag en het nuttige gebruik tot maximaal 5000 m³ bemalingswater per jaar. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bemalingtijdelijkrealisatiewerken",
+            "note": "Boring voor de aanleg van een tijdelijke bemaling die technisch noodzakelijk is voor de verwezenlijking van werken met inbegrip van terug in de ondergrond brengen van bemalingswater in dezelfde watervoerende laag en het nuttige gebruik tot maximaal 5000 m³ bemalingswater per jaar. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D1 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Bemaling - tijdelijk - realisatie van werken",
+            "semanticRelation": [
+                "concept:bemaling",
+                "concept:drainagebemaling"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:berging",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.berging",
+            "definition": "Boring met als doel 'berging' uitgevoerd voor onderzoek naar het vermogen van de ondergrond om diverse materialen op te slaan of voor de berging of veilige opslag van o.a. afval, gas, koolstofdioxide.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:boringtot100mopslagkernafval",
+                "concept:boringvanaf100mopslagkernafval",
+                "concept:boringvanaf500mexploitatievergunninggasopslag",
+                "concept:boringvanaf500mopslagvergunningkoolstofdioxide"
+            ],
+            "narrowerTransitive": [
+                "concept:boringtot100mopslagkernafval",
+                "concept:boringvanaf100mopslagkernafval",
+                "concept:boringvanaf500mexploitatievergunninggasopslag",
+                "concept:boringvanaf500mopslagvergunningkoolstofdioxide"
+            ],
+            "notation": "berging",
+            "note": "Boring met als doel 'berging' uitgevoerd voor onderzoek naar het vermogen van de ondergrond om diverse materialen op te slaan of voor de berging of veilige opslag van o.a. afval, gas, koolstofdioxide.",
+            "prefLabel": "Boring voor berging",
+            "semanticRelation": [
+                "concept:boringtot100mopslagkernafval",
+                "concept:boringvanaf100mopslagkernafval",
+                "concept:boringvanaf500mexploitatievergunninggasopslag",
+                "concept:boringvanaf500mopslagvergunningkoolstofdioxide"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bodemkundigonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bodemkundigonderzoek",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "definition": "Boring met als doel 'bodemkundig onderzoek'. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bodemkundigonderzoek",
+            "note": "Boring met als doel 'bodemkundig onderzoek'. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor bodemkundig onderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bodemsanering",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bodemsanering",
+            "broader": "concept:sanering",
+            "broaderTransitive": "concept:sanering",
+            "definition": "Boring voor sanering in het kader van een bodemsaneringsproject (BSP).",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bodemsanering",
+            "note": "Boring voor sanering in het kader van een bodemsaneringsproject (BSP).",
+            "prefLabel": "Boring i.h.k.v. bodemsanering",
+            "semanticRelation": "concept:sanering",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:bodemverontreiniging",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.bodemverontreiniging",
+            "altLabel": "Milieuboring",
+            "broader": "concept:monitoringvervuildesites",
+            "broaderTransitive": "concept:monitoringvervuildesites",
+            "definition": "Boring voor verkennend onderzoek naar bodemverontreiniging in een orienterend bodemonderzoek (OBO), een beschrijvend bodemonderzoek (BBO).",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "bodemverontreiniging",
+            "note": "Boring voor verkennend onderzoek naar bodemverontreiniging in een orienterend bodemonderzoek (OBO), een beschrijvend bodemonderzoek (BBO).",
+            "prefLabel": "Boring voor verkennend onderzoek naar bodemverontreiniging",
+            "semanticRelation": "concept:monitoringvervuildesites",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringtot100mopslagkernafval",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringtot100mopslagkernafval",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:berging",
+            "broaderTransitive": "concept:berging",
+            "definition": "Boring in verband met de opslag van kernafval (berging), tot een diepte van 100 meter ten opzichte van het maaiveld. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens disciplines D3 en D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringtot100mopslagkernafval",
+            "note": "Boring in verband met de opslag van kernafval (berging), tot een diepte van 100 meter ten opzichte van het maaiveld. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens disciplines D3 en D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring tot 100 meter in verband met opslag kernafval",
+            "semanticRelation": "concept:berging",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf100mopslagkernafval",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf100mopslagkernafval",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70344&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:berging",
+            "broaderTransitive": "concept:berging",
+            "definition": "Boring in verband met de opslag van kernafval (berging), vanaf een diepte van 100 meter ten opzichte van het maaiveld. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf100mopslagkernafval",
+            "note": "Boring in verband met de opslag van kernafval (berging), vanaf een diepte van 100 meter ten opzichte van het maaiveld. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 100 meter in verband met opslag kernafval",
+            "semanticRelation": "concept:berging",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mexploitatievergunninggasopslag",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mexploitatievergunninggasopslag",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:berging",
+            "broaderTransitive": "concept:berging",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld in het kader van een exploitatievergunning van ondergrondse bergruimten in situ bestemd voor het opslaan van gas. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mexploitatievergunninggasopslag",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld in het kader van een exploitatievergunning van ondergrondse bergruimten in situ bestemd voor het opslaan van gas. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 500 meter i.h.k.v. een exploitatievergunning voor het opslaan van gas",
+            "semanticRelation": "concept:berging",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mopslagvergunningkoolstofdioxide",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mopslagvergunningkoolstofdioxide",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:berging",
+            "broaderTransitive": "concept:berging",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een opslagvergunning voor koolstofdioxide. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mopslagvergunningkoolstofdioxide",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een opslagvergunning voor koolstofdioxide. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 500 meter i.h.k.v. een opslagvergunning voor koolstofdioxide",
+            "semanticRelation": "concept:berging",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mopsporingsvergunningaardwarmte",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mopsporingsvergunningaardwarmte",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:exploratiediepegeothermie",
+            "broaderTransitive": "concept:exploratiediepegeothermie",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een opsporingsvergunning voor aardwarmte. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens disciplines D2 en D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mopsporingsvergunningaardwarmte",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een opsporingsvergunning voor aardwarmte. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens disciplines D2 en D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 500 meter i.h.k.v. een opsporingsvergunning voor aardwarmte",
+            "semanticRelation": "concept:exploratiediepegeothermie",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mopsporingsvergunninggasopslag",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mopsporingsvergunninggasopslag",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:exploratieondergrondseopslag",
+            "broaderTransitive": "concept:exploratieondergrondseopslag",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld in het kader van een opsporingsvergunning van ondergrondse bergruimten in situ bestemd voor het opslaan van gas. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mopsporingsvergunninggasopslag",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld in het kader van een opsporingsvergunning van ondergrondse bergruimten in situ bestemd voor het opslaan van gas. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 500 meter i.h.k.v. een opsporingsvergunning voor het opslaan van gas",
+            "semanticRelation": "concept:exploratieondergrondseopslag",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mopsporingsvergunningkoolstofdioxideopslag",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mopsporingsvergunningkoolstofdioxideopslag",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:exploratieondergrondseopslag",
+            "broaderTransitive": "concept:exploratieondergrondseopslag",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een opsporingsvergunning voor koolstofdioxideopslag. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mopsporingsvergunningkoolstofdioxideopslag",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een opsporingsvergunning voor koolstofdioxideopslag. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 500 meter i.h.k.v. een opsporingsvergunning voor koolstofdioxideopslag",
+            "semanticRelation": "concept:exploratieondergrondseopslag",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mopsporingsvergunningkoolwaterstoffen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mopsporingsvergunningkoolwaterstoffen",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:exploratieenergiebronnen",
+            "broaderTransitive": "concept:exploratieenergiebronnen",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een opsporingsvergunning voor koolwaterstoffen. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mopsporingsvergunningkoolwaterstoffen",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een opsporingsvergunning voor koolwaterstoffen. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 500 meter i.h.k.v. een opsporingsvergunning voor koolwaterstoffen",
+            "semanticRelation": "concept:exploratieenergiebronnen",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mverkennendonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mverkennendonderzoek",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:geologischonderzoek",
+            "broaderTransitive": "concept:geologischonderzoek",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld louter voor verkennend en wetenschappelijk geologisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mverkennendonderzoek",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld louter voor verkennend en wetenschappelijk geologisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 500 meter louter voor verkennend en wetenschappelijk onderzoek",
+            "semanticRelation": "concept:geologischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mwinningsvergunningaardwarmte",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mwinningsvergunningaardwarmte",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:exploitatiediepegeothermie",
+            "broaderTransitive": "concept:exploitatiediepegeothermie",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een winningsvergunning voor aardwarmte. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mwinningsvergunningaardwarmte",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een winningsvergunning voor aardwarmte. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring vanaf 500 meter i.h.k.v. een winningsvergunning voor aardwarmte",
+            "semanticRelation": "concept:exploitatiediepegeothermie",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:boringvanaf500mwinningsvergunningkoolwaterstoffen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.boringvanaf500mwinningsvergunningkoolwaterstoffen",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:exploitatieenergiebronnen",
+            "broaderTransitive": "concept:exploitatieenergiebronnen",
+            "definition": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een winningsvergunning voor koolwaterstoffen.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringvanaf500mwinningsvergunningkoolwaterstoffen",
+            "note": "Boring vanaf een diepte van 500 meter ten opzichte van het maaiveld i.h.k.v. een winningsvergunning voor koolwaterstoffen.",
+            "prefLabel": "Boring vanaf 500 meter i.h.k.v. een winningsvergunning voor koolwaterstoffen",
+            "semanticRelation": "concept:exploitatieenergiebronnen",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:certificaatvanherkomst",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.certificaatvanherkomst",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geochemischonderzoek",
+            "broaderTransitive": "concept:geochemischonderzoek",
+            "definition": "Boring voor geochemisch onderzoek in het kader van certificaat van herkomst. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens disciplines D4 en D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "certificaatvanherkomst",
+            "note": "Boring voor geochemisch onderzoek in het kader van certificaat van herkomst. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens disciplines D4 en D5 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring i.h.k.v. certificaat van herkomst",
+            "semanticRelation": "concept:geochemischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:drainage",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.drainage",
+            "broader": "concept:drainagebemaling",
+            "broaderTransitive": "concept:drainagebemaling",
+            "definition": "Boring voor de aanleg van een drainage uitgevoerd voor het permanent of tijdelijk draineren van water.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "drainage",
+            "note": "Boring voor de aanleg van een drainage uitgevoerd voor het permanent of tijdelijk draineren van water.",
+            "prefLabel": "Drainage",
+            "semanticRelation": "concept:drainagebemaling",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:drainagebemaling",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.drainagebemaling",
+            "definition": "Boring met als doel 'drainage en bemaling' uitgevoerd voor het permanent of tijdelijk draineren of verwijderen van water.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:bemaling",
+                "concept:drainage"
+            ],
+            "narrowerTransitive": [
+                "concept:bemaling",
+                "concept:bemalingbodemsaneringgrondwaterverlaging",
+                "concept:bemalingpermanentexploitatiegebouwen",
+                "concept:bemalingpermanentexploitatieterreinen",
+                "concept:bemalingpermanentexploitatietunnels",
+                "concept:bemalingpermanentmijnverzakkingsgebieden",
+                "concept:bemalingtijdelijkrealisatienutsvoorzieningen",
+                "concept:bemalingtijdelijkrealisatiewerken",
+                "concept:drainage"
+            ],
+            "notation": "drainagebemaling",
+            "note": "Boring met als doel 'drainage en bemaling' uitgevoerd voor het permanent of tijdelijk draineren of verwijderen van water.",
+            "prefLabel": "Drainage en bemaling",
+            "semanticRelation": [
+                "concept:bemaling",
+                "concept:bemalingbodemsaneringgrondwaterverlaging",
+                "concept:bemalingpermanentexploitatiegebouwen",
+                "concept:bemalingpermanentexploitatieterreinen",
+                "concept:bemalingpermanentexploitatietunnels",
+                "concept:bemalingpermanentmijnverzakkingsgebieden",
+                "concept:bemalingtijdelijkrealisatienutsvoorzieningen",
+                "concept:bemalingtijdelijkrealisatiewerken",
+                "concept:drainage"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:exploitatiediepegeothermie",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.exploitatiediepegeothermie",
+            "definition": "Boring met als doel 'exploitatie diepe geothermie' uitgevoerd voor de exploitatie of winning van warmte voor gebruik in diepe geothermie.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": "concept:boringvanaf500mwinningsvergunningaardwarmte",
+            "narrowerTransitive": "concept:boringvanaf500mwinningsvergunningaardwarmte",
+            "notation": "exploitatiediepegeothermie",
+            "note": "Boring met als doel 'exploitatie diepe geothermie' uitgevoerd voor de exploitatie of winning van warmte voor gebruik in diepe geothermie.",
+            "prefLabel": "Boring voor exploitatie van warmte voor gebruik in diepe geothermie",
+            "semanticRelation": "concept:boringvanaf500mwinningsvergunningaardwarmte",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:exploitatieenergiebronnen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.exploitatieenergiebronnen",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70343&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "definition": "Boring met als doel 'exploitatie energiebronnen' uitgevoerd voor de exploitatie of winning van energiebronnen.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": "concept:boringvanaf500mwinningsvergunningkoolwaterstoffen",
+            "narrowerTransitive": "concept:boringvanaf500mwinningsvergunningkoolwaterstoffen",
+            "notation": "exploitatieenergiebronnen",
+            "note": "Boring met als doel 'exploitatie energiebronnen' uitgevoerd voor de exploitatie of winning van energiebronnen.",
+            "prefLabel": "Boring voor exploitatie van energiebronnen",
+            "semanticRelation": "concept:boringvanaf500mwinningsvergunningkoolwaterstoffen",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:exploitatiemineralebronnen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.exploitatiemineralebronnen",
+            "definition": "Boring met als doel 'exploitatie minerale bronnen' uitgevoerd voor de exploitatie of winning van minerale bronnen.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "exploitatiemineralebronnen",
+            "note": "Boring met als doel 'exploitatie minerale bronnen' uitgevoerd voor de exploitatie of winning van minerale bronnen.",
+            "prefLabel": "Boring voor exploitatie van minerale bronnen",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:exploratiediepegeothermie",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.exploratiediepegeothermie",
+            "definition": "Boring met als doel 'exploratie diepe geothermie' voor onderzoek naar de beschikbaarheid van warmte voor gebruik in diepe geothermie.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": "concept:boringvanaf500mopsporingsvergunningaardwarmte",
+            "narrowerTransitive": "concept:boringvanaf500mopsporingsvergunningaardwarmte",
+            "notation": "exploratiediepegeothermie",
+            "note": "Boring met als doel 'exploratie diepe geothermie' voor onderzoek naar de beschikbaarheid van warmte voor gebruik in diepe geothermie.",
+            "prefLabel": "Boring voor exploratie van warmte voor gebruik in diepe geothermie",
+            "semanticRelation": "concept:boringvanaf500mopsporingsvergunningaardwarmte",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:exploratieenergiebronnen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.exploratieenergiebronnen",
+            "definition": "Boring met als doel 'exploratie energiebronnen' uitgevoerd voor onderzoek naar de beschikbaarheid van energie bronnen.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": "concept:boringvanaf500mopsporingsvergunningkoolwaterstoffen",
+            "narrowerTransitive": "concept:boringvanaf500mopsporingsvergunningkoolwaterstoffen",
+            "notation": "exploratieenergiebronnen",
+            "note": "Boring met als doel 'exploratie energiebronnen' uitgevoerd voor onderzoek naar de beschikbaarheid van energie bronnen.",
+            "prefLabel": "Boring voor exploratie van energiebronnen",
+            "semanticRelation": "concept:boringvanaf500mopsporingsvergunningkoolwaterstoffen",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:exploratiemineralebronnen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.exploratiemineralebronnen",
+            "definition": "Boring met als doel 'exploratie minerale bronnen' uitgevoerd voor onderzoek naar de beschikbaarheid van minerale bronnen.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": "concept:prospectiedelfstoffen",
+            "narrowerTransitive": "concept:prospectiedelfstoffen",
+            "notation": "exploratiemineralebronnen",
+            "note": "Boring met als doel 'exploratie minerale bronnen' uitgevoerd voor onderzoek naar de beschikbaarheid van minerale bronnen.",
+            "prefLabel": "Boring voor exploratie van minerale bronnen",
+            "semanticRelation": "concept:prospectiedelfstoffen",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:exploratieondergrondseopslag",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.exploratieondergrondseopslag",
+            "definition": "Boring met als doel 'exploratie ondergrondse opslag'.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:boringvanaf500mopsporingsvergunninggasopslag",
+                "concept:boringvanaf500mopsporingsvergunningkoolstofdioxideopslag"
+            ],
+            "narrowerTransitive": [
+                "concept:boringvanaf500mopsporingsvergunninggasopslag",
+                "concept:boringvanaf500mopsporingsvergunningkoolstofdioxideopslag"
+            ],
+            "notation": "exploratieondergrondseopslag",
+            "note": "Boring met als doel 'exploratie ondergrondse opslag'.",
+            "prefLabel": "Boring voor exploratie van ondergrondse opslag",
+            "semanticRelation": [
+                "concept:boringvanaf500mopsporingsvergunninggasopslag",
+                "concept:boringvanaf500mopsporingsvergunningkoolstofdioxideopslag"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geochemischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geochemischonderzoek",
+            "definition": "Boring met als doel 'geochemisch onderzoek' naar de geochemische eigenschappen van de (onder)grond en of van porositeitsvloeistoffen.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:certificaatvanherkomst",
+                "concept:verkennendgeochemischonderzoek"
+            ],
+            "narrowerTransitive": [
+                "concept:certificaatvanherkomst",
+                "concept:verkennendgeochemischonderzoek"
+            ],
+            "notation": "geochemischonderzoek",
+            "note": "Boring met als doel 'geochemisch onderzoek' naar de geochemische eigenschappen van de (onder)grond en of van porositeitsvloeistoffen.",
+            "prefLabel": "Boring voor geochemisch onderzoek",
+            "semanticRelation": [
+                "concept:certificaatvanherkomst",
+                "concept:verkennendgeochemischonderzoek"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geofysischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geofysischonderzoek",
+            "definition": "Boring met als doel 'geofysisch onderzoek' naar de geofysische eigenschappen van de (onder)grond.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:seismischonderzoek",
+                "concept:verkennendgeofysischonderzoek"
+            ],
+            "narrowerTransitive": [
+                "concept:seismischonderzoek",
+                "concept:verkennendgeofysischonderzoek"
+            ],
+            "notation": "geofysischonderzoek",
+            "note": "Boring met als doel 'geofysisch onderzoek' naar de geofysische eigenschappen van de (onder)grond.",
+            "prefLabel": "Boring voor geofysisch onderzoek",
+            "semanticRelation": [
+                "concept:seismischonderzoek",
+                "concept:verkennendgeofysischonderzoek"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geologischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geologischonderzoek",
+            "definition": "Boring met als doel 'geologisch onderzoek' naar de geologische opbouw van de (onder)grond.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:boringvanaf500mverkennendonderzoek",
+                "concept:geologischonderzoekhistorisch",
+                "concept:verkennendgeologischonderzoek"
+            ],
+            "narrowerTransitive": [
+                "concept:boringvanaf500mverkennendonderzoek",
+                "concept:geologischonderzoekhistorisch",
+                "concept:verkennendgeologischonderzoek"
+            ],
+            "notation": "geologischonderzoek",
+            "note": "Boring met als doel 'geologisch onderzoek' naar de geologische opbouw van de (onder)grond.",
+            "prefLabel": "Boring voor geologisch onderzoek",
+            "semanticRelation": [
+                "concept:boringvanaf500mverkennendonderzoek",
+                "concept:geologischonderzoekhistorisch",
+                "concept:verkennendgeologischonderzoek"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geologischonderzoekhistorisch",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geologischonderzoekhistorisch",
+            "broader": "concept:geologischonderzoek",
+            "broaderTransitive": "concept:geologischonderzoek",
+            "definition": "Boring voor ingave van historisch geologisch onderzoek.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "geologischonderzoekhistorisch",
+            "note": "Boring voor ingave van historisch geologisch onderzoek.",
+            "prefLabel": "Historische geologische boring",
+            "semanticRelation": "concept:geologischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geotechnischeboringanderinstrument",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geotechnischeboringanderinstrument",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geotechnischonderzoek",
+            "broaderTransitive": "concept:geotechnischonderzoek",
+            "definition": "Boring met het plaatsen van een instrument anders dan een peilfilter, waterspanningsmeter, gronddrukmeter, inclinometer of extensometer voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "geotechnischeboringanderinstrument",
+            "note": "Boring met het plaatsen van een instrument anders dan een peilfilter, waterspanningsmeter, gronddrukmeter, inclinometer of extensometer voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Geotechnische boring - ander instrumentarium",
+            "semanticRelation": "concept:geotechnischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geotechnischeboringextensometer",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geotechnischeboringextensometer",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geotechnischonderzoek",
+            "broaderTransitive": "concept:geotechnischonderzoek",
+            "definition": "Boring met het plaatsen van extensometers voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "geotechnischeboringextensometer",
+            "note": "Boring met het plaatsen van extensometers voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Geotechnische boring - extensometers",
+            "semanticRelation": "concept:geotechnischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geotechnischeboringgronddrukmeter",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geotechnischeboringgronddrukmeter",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geotechnischonderzoek",
+            "broaderTransitive": "concept:geotechnischonderzoek",
+            "definition": "Boring met het plaatsen van gronddrukmeters voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "geotechnischeboringgronddrukmeter",
+            "note": "Boring met het plaatsen van gronddrukmeters voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Geotechnische boring - gronddrukmeters",
+            "semanticRelation": "concept:geotechnischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geotechnischeboringinclinometer",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geotechnischeboringinclinometer",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geotechnischonderzoek",
+            "broaderTransitive": "concept:geotechnischonderzoek",
+            "definition": "Boring met het plaatsen van inclinometers voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "geotechnischeboringinclinometer",
+            "note": "Boring met het plaatsen van inclinometers voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Geotechnische boring - inclinometers",
+            "semanticRelation": "concept:geotechnischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geotechnischeboringmonstername",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geotechnischeboringmonstername",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geotechnischonderzoek",
+            "broaderTransitive": "concept:geotechnischonderzoek",
+            "definition": "Boring met monstername voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "geotechnischeboringmonstername",
+            "note": "Boring met monstername voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Geotechnische boring - (dis)continue monstername",
+            "semanticRelation": "concept:geotechnischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geotechnischeboringpeilfilter",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geotechnischeboringpeilfilter",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geotechnischonderzoek",
+            "broaderTransitive": "concept:geotechnischonderzoek",
+            "definition": "Boring met het plaatsen van peilfilters voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "geotechnischeboringpeilfilter",
+            "note": "Boring met het plaatsen van peilfilters voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Geotechnische boring - peilfilters",
+            "semanticRelation": "concept:geotechnischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geotechnischeboringwaterspanningsmeter",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geotechnischeboringwaterspanningsmeter",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geotechnischonderzoek",
+            "broaderTransitive": "concept:geotechnischonderzoek",
+            "definition": "Boring met het plaatsen van waterspanningsmeters voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "geotechnischeboringwaterspanningsmeter",
+            "note": "Boring met het plaatsen van waterspanningsmeters voor geotechnisch onderzoek naar de fysische en mechanische eigenschappen en stabiliteit van de grond. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D3 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Geotechnische boring - waterspanningsmeters",
+            "semanticRelation": "concept:geotechnischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geotechnischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geotechnischonderzoek",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70341&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "altLabel": "Geotechnisch onderzoek",
+            "definition": "Boring met als doel 'geotechnisch onderzoek' naar de fysische en mechanische eigenschappen en de stabiliteit van de ondergrond gerelateerd aan bouw- en infrastructuurwerken.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:geotechnischeboringanderinstrument",
+                "concept:geotechnischeboringextensometer",
+                "concept:geotechnischeboringgronddrukmeter",
+                "concept:geotechnischeboringinclinometer",
+                "concept:geotechnischeboringmonstername",
+                "concept:geotechnischeboringpeilfilter",
+                "concept:geotechnischeboringwaterspanningsmeter"
+            ],
+            "narrowerTransitive": [
+                "concept:geotechnischeboringanderinstrument",
+                "concept:geotechnischeboringextensometer",
+                "concept:geotechnischeboringgronddrukmeter",
+                "concept:geotechnischeboringinclinometer",
+                "concept:geotechnischeboringmonstername",
+                "concept:geotechnischeboringpeilfilter",
+                "concept:geotechnischeboringwaterspanningsmeter"
+            ],
+            "notation": "geotechnischonderzoek",
+            "note": "Boring met als doel 'geotechnisch onderzoek' naar de fysische en mechanische eigenschappen en de stabiliteit van de ondergrond gerelateerd aan bouw- en infrastructuurwerken.",
+            "prefLabel": "Geotechnische boring",
+            "semanticRelation": [
+                "concept:geotechnischeboringanderinstrument",
+                "concept:geotechnischeboringextensometer",
+                "concept:geotechnischeboringgronddrukmeter",
+                "concept:geotechnischeboringinclinometer",
+                "concept:geotechnischeboringmonstername",
+                "concept:geotechnischeboringpeilfilter",
+                "concept:geotechnischeboringwaterspanningsmeter"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:geothermie",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.geothermie",
+            "definition": "Boring met als doel 'geothermie' uitgevoerd voor ondiepe geothemische energie opslag in een boorgat (BEO, bodemlus, BTES) of voor koude-warmteopslag (KWO, WKO, ATES).",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:grondwaterwinningkoudewarmteopslag",
+                "concept:thermischeenergieopslag"
+            ],
+            "narrowerTransitive": [
+                "concept:grondwaterwinningkoudewarmteopslag",
+                "concept:thermischeenergieopslag"
+            ],
+            "notation": "geothermie",
+            "note": "Boring met als doel 'geothermie' uitgevoerd voor ondiepe geothemische energie opslag in een boorgat (BEO, bodemlus, BTES) of voor koude-warmteopslag (KWO, WKO, ATES).",
+            "prefLabel": "Boring voor warmteopslag voor gebruik in (ondiepe) geothermie",
+            "semanticRelation": [
+                "concept:grondwaterwinningkoudewarmteopslag",
+                "concept:thermischeenergieopslag"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondverzet",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondverzet",
+            "definition": "Boring uitgevoerd i.h.k.v. grondverzet regelgeving.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": "concept:grondverzetpeilput",
+            "narrowerTransitive": "concept:grondverzetpeilput",
+            "notation": "grondverzet",
+            "note": "Boring uitgevoerd i.h.k.v. grondverzet regelgeving.",
+            "prefLabel": "Boring i.h.k.v. grondverzet",
+            "semanticRelation": "concept:grondverzetpeilput",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondverzetpeilput",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondverzetpeilput",
+            "broader": "concept:grondverzet",
+            "broaderTransitive": "concept:grondverzet",
+            "definition": "Boring i.h.k.v. grondverzet voor de aanleg van een peilput.\t",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondverzetpeilput",
+            "note": "Boring i.h.k.v. grondverzet voor de aanleg van een peilput.\t",
+            "prefLabel": "Boring i.h.k.v. grondverzet voor de aanleg van een peilput",
+            "semanticRelation": "concept:grondverzet",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwaterherinfiltratiebodemsanering",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwaterherinfiltratiebodemsanering",
+            "broader": "concept:sanering",
+            "broaderTransitive": "concept:sanering",
+            "definition": "Boring uitgevoerd voor herinfiltratie van opgepompt grondwater in een bodemsaneringsproject (BSP).",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondwaterherinfiltratiebodemsanering",
+            "note": "Boring uitgevoerd voor herinfiltratie van opgepompt grondwater in een bodemsaneringsproject (BSP).",
+            "prefLabel": "Boring voor herinfiltratie van opgepompt grondwater (bodemsanering)",
+            "semanticRelation": "concept:sanering",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwatermonitoring",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwatermonitoring",
+            "definition": "Boring met als doel 'grondwatermonitoring' uitgevoerd voor de monitoring van de kwaliteit en/of kwantiteit van het grondwater.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:aanlegpeilput",
+                "concept:aanlegpeilputanalyses",
+                "concept:aanlegpeilputinrichting"
+            ],
+            "narrowerTransitive": [
+                "concept:aanlegpeilput",
+                "concept:aanlegpeilputanalyses",
+                "concept:aanlegpeilputinrichting"
+            ],
+            "notation": "grondwatermonitoring",
+            "note": "Boring met als doel 'grondwatermonitoring' uitgevoerd voor de monitoring van de kwaliteit en/of kwantiteit van het grondwater.",
+            "prefLabel": "Boring voor het monitoren van grondwater",
+            "semanticRelation": [
+                "concept:aanlegpeilput",
+                "concept:aanlegpeilputanalyses",
+                "concept:aanlegpeilputinrichting"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwateronttrekkingbodemsanering",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwateronttrekkingbodemsanering",
+            "broader": "concept:sanering",
+            "broaderTransitive": "concept:sanering",
+            "definition": "Boring uitgevoerd voor grondwateronttrekking inclusief drijflaagverwijdering in een bodemsaneringsproject (BSP).",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondwateronttrekkingbodemsanering",
+            "note": "Boring uitgevoerd voor grondwateronttrekking inclusief drijflaagverwijdering in een bodemsaneringsproject (BSP).",
+            "prefLabel": "Boring voor grondwateronttrekking incl. drijflaagverwijdering (bodemsanering)",
+            "semanticRelation": "concept:sanering",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwaterwinning",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwaterwinning",
+            "definition": "Boring met als doel 'grondwaterwinning' uitgevoerd voor winning van grondwater ten behoeve van watervoorziening.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:grondwaterwinningbedrijfsgebondentoepassing",
+                "concept:grondwaterwinninghuishoudtoepassing",
+                "concept:grondwaterwinningopenbarewatervoorziening"
+            ],
+            "narrowerTransitive": [
+                "concept:grondwaterwinningbedrijfsgebondentoepassing",
+                "concept:grondwaterwinninghuishoudtoepassing",
+                "concept:grondwaterwinningopenbarewatervoorziening"
+            ],
+            "notation": "grondwaterwinning",
+            "note": "Boring met als doel 'grondwaterwinning' uitgevoerd voor winning van grondwater ten behoeve van watervoorziening.",
+            "prefLabel": "Boring i.h.k.v. een grondwaterwinning",
+            "semanticRelation": [
+                "concept:grondwaterwinningbedrijfsgebondentoepassing",
+                "concept:grondwaterwinninghuishoudtoepassing",
+                "concept:grondwaterwinningopenbarewatervoorziening"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwaterwinningbedrijfsgebondentoepassing",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwaterwinningbedrijfsgebondentoepassing",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:grondwaterwinning",
+            "broaderTransitive": "concept:grondwaterwinning",
+            "definition": "Boring voor de aanleg van  grondwaterwinningsputten en grondwaterwinning  voor bedrijfsgebonden toepassingen. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondwaterwinningbedrijfsgebondentoepassing",
+            "note": "Boring voor de aanleg van  grondwaterwinningsputten en grondwaterwinning  voor bedrijfsgebonden toepassingen. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring i.h.k.v. een grondwaterwinning voor bedrijfsgebonden toepassingen",
+            "semanticRelation": "concept:grondwaterwinning",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwaterwinninghuishoudtoepassing",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwaterwinninghuishoudtoepassing",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:grondwaterwinning",
+            "broaderTransitive": "concept:grondwaterwinning",
+            "definition": "Boring voor de aanleg van een grondwaterwinning tot maximaal 500 m³ per jaar, waarvan het water uitsluitend voor huishoudelijke doeleinden wordt gebruikt. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondwaterwinninghuishoudtoepassing",
+            "note": "Boring voor de aanleg van een grondwaterwinning tot maximaal 500 m³ per jaar, waarvan het water uitsluitend voor huishoudelijke doeleinden wordt gebruikt. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring i.h.k.v. een grondwaterwinning voor huishoudelijke toepassingen",
+            "semanticRelation": "concept:grondwaterwinning",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwaterwinningkoudewarmteopslag",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwaterwinningkoudewarmteopslag",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70341&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:geothermie",
+            "broaderTransitive": "concept:geothermie",
+            "definition": "Boring voor de aanleg van grondwaterwinningsputten en grondwaterwinningen die gebruikt worden voor thermische energieopslag in watervoerende lagen (inclusief KWO: koude- en warmte opslag, WKO: warmte koude opslag, ATES: aquifer thermal energie storage) met inbegrip van terugpompingen.  De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondwaterwinningkoudewarmteopslag",
+            "note": "Boring voor de aanleg van grondwaterwinningsputten en grondwaterwinningen die gebruikt worden voor thermische energieopslag in watervoerende lagen (inclusief KWO: koude- en warmte opslag, WKO: warmte koude opslag, ATES: aquifer thermal energie storage) met inbegrip van terugpompingen.  De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor koude-warmteopslag (KWO, WKO, ATES)",
+            "semanticRelation": "concept:geothermie",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwaterwinningkunstmatigaanvullengrondwater",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwaterwinningkunstmatigaanvullengrondwater",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70337&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:infiltratie",
+            "broaderTransitive": "concept:infiltratie",
+            "definition": "Boring uitgevoerd voor de aanleg van putten voor het direct en kunstmatig aanvullen van grondwater. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondwaterwinningkunstmatigaanvullengrondwater",
+            "note": "Boring uitgevoerd voor de aanleg van putten voor het direct en kunstmatig aanvullen van grondwater. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor het kunstmatig aanvullen van grondwater",
+            "semanticRelation": "concept:infiltratie",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwaterwinningondergrondsebeluchting",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwaterwinningondergrondsebeluchting",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:sanering",
+            "broaderTransitive": "concept:sanering",
+            "definition": "oring voor de aanleg van grondwaterwinningsputten en grondwaterwinning met inbegrip van terugpompingen van belucht grondwater in dezelfde freatische watervoerende laag voor ondergrondse beluchting. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondwaterwinningondergrondsebeluchting",
+            "note": "oring voor de aanleg van grondwaterwinningsputten en grondwaterwinning met inbegrip van terugpompingen van belucht grondwater in dezelfde freatische watervoerende laag voor ondergrondse beluchting. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring i.h.k.v. een grondwaterwinning met ondergrondse beluchting",
+            "semanticRelation": "concept:sanering",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:grondwaterwinningopenbarewatervoorziening",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.grondwaterwinningopenbarewatervoorziening",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:grondwaterwinning",
+            "broaderTransitive": "concept:grondwaterwinning",
+            "definition": "Boring voor de aanleg van grondwaterwinningsputten en grondwaterwinning voor de openbare watervoorziening. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "grondwaterwinningopenbarewatervoorziening",
+            "note": "Boring voor de aanleg van grondwaterwinningsputten en grondwaterwinning voor de openbare watervoorziening. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D2 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring i.h.k.v. een grondwaterwinning voor openbare watervoorziening",
+            "semanticRelation": "concept:grondwaterwinning",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:hydrogeologischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.hydrogeologischonderzoek",
+            "definition": "Boring met als doel 'hydrogeologisch onderzoek' uitgevoerd voor onderzoek naar grondwaterstroming, de chemische eigenschappen van grondwater, en transport van deeltjes, opgeloste stoffen en energie, evenals het management van het duurzame gebruik van grondwaterbronnen.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:hydrogeologischonderzoekhistorisch",
+                "concept:pompproef",
+                "concept:verkennendhydrogeologischonderzoek"
+            ],
+            "narrowerTransitive": [
+                "concept:hydrogeologischonderzoekhistorisch",
+                "concept:pompproef",
+                "concept:verkennendhydrogeologischonderzoek"
+            ],
+            "notation": "hydrogeologischonderzoek",
+            "note": "Boring met als doel 'hydrogeologisch onderzoek' uitgevoerd voor onderzoek naar grondwaterstroming, de chemische eigenschappen van grondwater, en transport van deeltjes, opgeloste stoffen en energie, evenals het management van het duurzame gebruik van grondwaterbronnen.",
+            "prefLabel": "Boring voor hydrogeologisch onderzoek",
+            "semanticRelation": [
+                "concept:hydrogeologischonderzoekhistorisch",
+                "concept:pompproef",
+                "concept:verkennendhydrogeologischonderzoek"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:hydrogeologischonderzoekhistorisch",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.hydrogeologischonderzoekhistorisch",
+            "broader": "concept:hydrogeologischonderzoek",
+            "broaderTransitive": "concept:hydrogeologischonderzoek",
+            "definition": "Boring voor ingave van historisch hydrogeologisch onderzoek.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "hydrogeologischonderzoekhistorisch",
+            "note": "Boring voor ingave van historisch hydrogeologisch onderzoek.",
+            "prefLabel": "Historische hydrogeologische boring",
+            "semanticRelation": "concept:hydrogeologischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:infiltratie",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.infiltratie",
+            "definition": "Boring voor de aanleg van een infiltratie uitgevoerd voor het kunstmatig aanvullen van grondwater door injectie uit diverse bronnen.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": "concept:grondwaterwinningkunstmatigaanvullengrondwater",
+            "narrowerTransitive": "concept:grondwaterwinningkunstmatigaanvullengrondwater",
+            "notation": "infiltratie",
+            "note": "Boring voor de aanleg van een infiltratie uitgevoerd voor het kunstmatig aanvullen van grondwater door injectie uit diverse bronnen.",
+            "prefLabel": "Boring i.h.k.v. een infiltratie",
+            "semanticRelation": "concept:grondwaterwinningkunstmatigaanvullengrondwater",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:kathodischebescherming",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.kathodischebescherming",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "definition": "Boring met als doel 'kathodische bescherming'. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "kathodischebescherming",
+            "note": "Boring met als doel 'kathodische bescherming'. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor kathodische bescherming",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:monitoringvervuildesites",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.monitoringvervuildesites",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "definition": "Boring met als doel 'monitoring van vervuilde sites' uitgevoerd in het kader van een bodemonderzoek en/of in het kader van bodemdecreet regelgeving.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:aanlegpeilputverontreiniging",
+                "concept:bodemverontreiniging"
+            ],
+            "narrowerTransitive": [
+                "concept:aanlegpeilputverontreiniging",
+                "concept:bodemverontreiniging"
+            ],
+            "notation": "monitoringvervuildesites",
+            "note": "Boring met als doel 'monitoring van vervuilde sites' uitgevoerd in het kader van een bodemonderzoek en/of in het kader van bodemdecreet regelgeving.",
+            "prefLabel": "Boring voor de monitoring van vervuilde sites",
+            "semanticRelation": [
+                "concept:aanlegpeilputverontreiniging",
+                "concept:bodemverontreiniging"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:opvullenboorgat",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.opvullenboorgat",
+            "definition": "Boring voor het opvullen van een boorgat of een grondwaterwinning.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "boringopvullen",
+            "note": "Boring voor het opvullen van een boorgat of een grondwaterwinning.",
+            "prefLabel": "Boring voor het opvullen van een boorgat of een grondwaterwinning",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:pompproef",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.pompproef",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70324&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:hydrogeologischonderzoek",
+            "broaderTransitive": "concept:hydrogeologischonderzoek",
+            "definition": "Boring voor aanleg van een grondwwaterwinningsput of grondwaterwinning voor proefpomping, pompproef of bemalingsproef gedurende minder dan 3 maanden. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens disciplines D1, D2, D3 en D5  van de VLAREL-erkenning artikel 6, 7°, a) en voor boorwerkzaamheden uitgevoerd buiten VLAREL erkende boorbedrijven.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "pompproef",
+            "note": "Boring voor aanleg van een grondwwaterwinningsput of grondwaterwinning voor proefpomping, pompproef of bemalingsproef gedurende minder dan 3 maanden. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens disciplines D1, D2, D3 en D5  van de VLAREL-erkenning artikel 6, 7°, a) en voor boorwerkzaamheden uitgevoerd buiten VLAREL erkende boorbedrijven.",
+            "prefLabel": "Boring voor proefpomping, pompproef of bemalingsproef",
+            "semanticRelation": "concept:hydrogeologischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:prospectiedelfstoffen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.prospectiedelfstoffen",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:exploratiemineralebronnen",
+            "broaderTransitive": "concept:exploratiemineralebronnen",
+            "definition": "Boring voor verkennend onderzoek voor de prospectie naar delfstoffen. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "prospectiedelfstoffen",
+            "note": "Boring voor verkennend onderzoek voor de prospectie naar delfstoffen. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor verkennend onderzoek naar de prospectie van delfstoffen",
+            "semanticRelation": "concept:exploratiemineralebronnen",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:sanering",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.sanering",
+            "definition": "Boring met als doel 'sanering' uitgevoerd voor sanering in het algemeen: het verwijderen van vervuiling of verontreiniging uit grondwater, grond en ander gesteente.",
+            "inScheme": "conceptscheme:boringtype",
+            "narrower": [
+                "concept:bemalingbodemsanering",
+                "concept:bemalingbodemsaneringmitigatie",
+                "concept:bodemsanering",
+                "concept:grondwaterherinfiltratiebodemsanering",
+                "concept:grondwateronttrekkingbodemsanering",
+                "concept:grondwaterwinningondergrondsebeluchting"
+            ],
+            "narrowerTransitive": [
+                "concept:bemalingbodemsanering",
+                "concept:bemalingbodemsaneringmitigatie",
+                "concept:bodemsanering",
+                "concept:grondwaterherinfiltratiebodemsanering",
+                "concept:grondwateronttrekkingbodemsanering",
+                "concept:grondwaterwinningondergrondsebeluchting"
+            ],
+            "notation": "sanering",
+            "note": "Boring met als doel 'sanering' uitgevoerd voor sanering in het algemeen: het verwijderen van vervuiling of verontreiniging uit grondwater, grond en ander gesteente.",
+            "prefLabel": "Sanering",
+            "semanticRelation": [
+                "concept:bemalingbodemsanering",
+                "concept:bemalingbodemsaneringmitigatie",
+                "concept:bodemsanering",
+                "concept:grondwaterherinfiltratiebodemsanering",
+                "concept:grondwateronttrekkingbodemsanering",
+                "concept:grondwaterwinningondergrondsebeluchting"
+            ],
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:seismischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.seismischonderzoek",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geofysischonderzoek",
+            "broaderTransitive": "concept:geofysischonderzoek",
+            "definition": "Boring met inbouw van een seismometer voor geofysisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "seismischonderzoek",
+            "note": "Boring met inbouw van een seismometer voor geofysisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor inbouw van een seismometer",
+            "semanticRelation": "concept:geofysischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:thermischeenergieopslag",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.thermischeenergieopslag",
+            "seeAlso": [
+                "../../../doc/conceptscheme/erkenningstype",
+                "https://navigator.emis.vito.be/detail?woId=70341&woLang=nl&version=(versie%202025-04-17)"
+            ],
+            "broader": "concept:geothermie",
+            "broaderTransitive": "concept:geothermie",
+            "definition": "Boring in het kader van thermische energieopslag in boorgaten. Voorbeelden zijn boorgat energieopslag (BEO), geothermische opslag per boorgat (BTES) of bodemlus. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "thermischeenergieopslag",
+            "note": "Boring in het kader van thermische energieopslag in boorgaten. Voorbeelden zijn boorgat energieopslag (BEO), geothermische opslag per boorgat (BTES) of bodemlus. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor thermische energieopslag in boorgat (BEO, bodemlus, BTES)",
+            "semanticRelation": "concept:geothermie",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:verkennendgeochemischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.verkennendgeochemischonderzoek",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geochemischonderzoek",
+            "broaderTransitive": "concept:geochemischonderzoek",
+            "definition": "Boring voor verkennend geochemisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "verkennendgeochemischonderzoek",
+            "note": "Boring voor verkennend geochemisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor verkennend geochemisch onderzoek",
+            "semanticRelation": "concept:geochemischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:verkennendgeofysischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.verkennendgeofysischonderzoek",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geofysischonderzoek",
+            "broaderTransitive": "concept:geofysischonderzoek",
+            "definition": "Boring voor verkennend geofysich onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "verkennendgeofysischonderzoek",
+            "note": "Boring voor verkennend geofysich onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor verkennend geofysisch onderzoek",
+            "semanticRelation": "concept:geofysischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:verkennendgeologischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.verkennendgeologischonderzoek",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:geologischonderzoek",
+            "broaderTransitive": "concept:geologischonderzoek",
+            "definition": "Boring voor verkennend geologisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "verkennendgeologischonderzoek",
+            "note": "Boring voor verkennend geologisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor inbouw van een seismometer",
+            "semanticRelation": "concept:geologischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
+            "id": "concept:verkennendhydrogeologischonderzoek",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.boringtype.verkennendhydrogeologischonderzoek",
+            "seeAlso": "../../../doc/conceptscheme/erkenningstype",
+            "broader": "concept:hydrogeologischonderzoek",
+            "broaderTransitive": "concept:hydrogeologischonderzoek",
+            "definition": "Boring voor verkennend hydrogeologisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "inScheme": "conceptscheme:boringtype",
+            "notation": "verkennendhydrogeologischonderzoek",
+            "note": "Boring voor verkennend hydrogeologisch onderzoek. De boring wordt uitgevoerd door een boorbedrijf erkend voor boorwerkzaamheden volgens discipline D4 van de VLAREL-erkenning artikel 6, 7°, a) of valt onder bepaalde boorwerkzaamheden buiten het toepassingsgebied van deze disciplines.",
+            "prefLabel": "Boring voor verkennend hydrogeologisch onderzoek",
+            "semanticRelation": "concept:hydrogeologischonderzoek",
+            "topConceptOf": "conceptscheme:boringtype"
+        },
+        {
             "id": "conceptscheme:boringtype",
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.boringtype",
             "definition": "Beschrijving van de type boring.",
-            "hasTopConcept": "concept:archeologischonderzoek",
+            "hasTopConcept": [
+                "concept:aanlegpeilput",
+                "concept:grondwatermonitoring",
+                "concept:aanlegpeilputanalyses",
+                "concept:aanlegpeilputinrichting",
+                "concept:aanlegpeilputverontreiniging",
+                "concept:monitoringvervuildesites",
+                "concept:archeologischonderzoek",
+                "concept:bemaling",
+                "concept:drainagebemaling",
+                "concept:bemalingbodemsaneringgrondwaterverlaging",
+                "concept:bemalingpermanentexploitatiegebouwen",
+                "concept:bemalingpermanentexploitatieterreinen",
+                "concept:bemalingpermanentexploitatietunnels",
+                "concept:bemalingpermanentmijnverzakkingsgebieden",
+                "concept:bemalingtijdelijkrealisatienutsvoorzieningen",
+                "concept:bemalingtijdelijkrealisatiewerken",
+                "concept:bemalingbodemsanering",
+                "concept:sanering",
+                "concept:bemalingbodemsaneringmitigatie",
+                "concept:berging",
+                "concept:boringtot100mopslagkernafval",
+                "concept:boringvanaf100mopslagkernafval",
+                "concept:boringvanaf500mexploitatievergunninggasopslag",
+                "concept:boringvanaf500mopslagvergunningkoolstofdioxide",
+                "concept:bodemkundigonderzoek",
+                "concept:bodemsanering",
+                "concept:bodemverontreiniging",
+                "concept:boringvanaf500mopsporingsvergunningaardwarmte",
+                "concept:exploratiediepegeothermie",
+                "concept:boringvanaf500mopsporingsvergunninggasopslag",
+                "concept:exploratieondergrondseopslag",
+                "concept:boringvanaf500mopsporingsvergunningkoolstofdioxideopslag",
+                "concept:boringvanaf500mopsporingsvergunningkoolwaterstoffen",
+                "concept:exploratieenergiebronnen",
+                "concept:boringvanaf500mverkennendonderzoek",
+                "concept:geologischonderzoek",
+                "concept:boringvanaf500mwinningsvergunningaardwarmte",
+                "concept:exploitatiediepegeothermie",
+                "concept:boringvanaf500mwinningsvergunningkoolwaterstoffen",
+                "concept:exploitatieenergiebronnen",
+                "concept:certificaatvanherkomst",
+                "concept:geochemischonderzoek",
+                "concept:drainage",
+                "concept:exploitatiemineralebronnen",
+                "concept:exploratiemineralebronnen",
+                "concept:prospectiedelfstoffen",
+                "concept:verkennendgeochemischonderzoek",
+                "concept:geofysischonderzoek",
+                "concept:seismischonderzoek",
+                "concept:verkennendgeofysischonderzoek",
+                "concept:geologischonderzoekhistorisch",
+                "concept:verkennendgeologischonderzoek",
+                "concept:geotechnischeboringanderinstrument",
+                "concept:geotechnischonderzoek",
+                "concept:geotechnischeboringextensometer",
+                "concept:geotechnischeboringgronddrukmeter",
+                "concept:geotechnischeboringinclinometer",
+                "concept:geotechnischeboringmonstername",
+                "concept:geotechnischeboringpeilfilter",
+                "concept:geotechnischeboringwaterspanningsmeter",
+                "concept:geothermie",
+                "concept:grondwaterwinningkoudewarmteopslag",
+                "concept:thermischeenergieopslag",
+                "concept:grondverzet",
+                "concept:grondverzetpeilput",
+                "concept:grondwaterherinfiltratiebodemsanering",
+                "concept:grondwateronttrekkingbodemsanering",
+                "concept:grondwaterwinning",
+                "concept:grondwaterwinningbedrijfsgebondentoepassing",
+                "concept:grondwaterwinninghuishoudtoepassing",
+                "concept:grondwaterwinningopenbarewatervoorziening",
+                "concept:grondwaterwinningkunstmatigaanvullengrondwater",
+                "concept:infiltratie",
+                "concept:grondwaterwinningondergrondsebeluchting",
+                "concept:hydrogeologischonderzoek",
+                "concept:hydrogeologischonderzoekhistorisch",
+                "concept:pompproef",
+                "concept:verkennendhydrogeologischonderzoek",
+                "concept:kathodischebescherming",
+                "concept:opvullenboorgat"
+            ],
             "note": "Beschrijving van de type boring.",
             "prefLabel": "Codelijst boringtype."
         }
