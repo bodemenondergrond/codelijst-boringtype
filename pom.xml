@@ -9,7 +9,7 @@
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId>
   <artifactId>codelijst-boringtype</artifactId> 
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>codelijst-boringtype</name>
@@ -17,7 +17,7 @@
         <connection>scm:git:https://github.com/bodemenondergrond/codelijst-boringtype.git</connection>
         <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-boringtype.git</developerConnection>
         <url>https://github.com/bodemenondergrond/codelijst-boringtype.git</url>
-    <tag>codelijst-boringtype-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <build>
     <plugins>
